@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 86px 24px;
+  background-color: hsl(0, 0%, 95%);
+  width: 100%;
+  color: hsl(0, 0%, 95%);
+}
+.card-preview {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* card-sedarn */
+.card-sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 47px 53px 47px 47px;
+}
+
+/* card-suvs */
+.card-suvs {
+  background-color: hsl(184, 100%, 22%);
+  padding: 47px 53px 47px 47px;
+}
+
+/* card-luxury */
+.card-luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 47px 53px 47px 47px;
+}
+.icon {
+  width: 63px;
+  height: 39px;
+}
+.main-heading {
+  font-size: 35px;
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  margin: 40px 0 0;
+}
+.content {
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  margin: 38px 0 0;
+  line-height: 1.6;
+}
+/* button-sedans */
+.bt-sedans {
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  color: hsl(31, 77%, 52%);
+  width: 148px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid hsl(31, 77%, 52%);
+  margin-top: 25px;
+}
+.bt-sedans:hover{
+    cursor: pointer;
+    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+/* button-suvs */
+.bt-suvs {
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  color: hsl(184, 100%, 22%);
+  width: 148px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid hsl(184, 100%, 22%);
+  margin-top: 25px;
+}
+.bt-suvs:hover{
+    cursor: pointer;
+    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+/* button-luxury */
+.bt-luxury {
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  color: hsl(179, 100%, 13%);
+  width: 148px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid hsl(179, 100%, 13%);
+  margin-top: 25px;
+}
+.bt-luxury:hover{
+    cursor: pointer;
+    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
