@@ -57,20 +57,20 @@ body {
 }
 /* button-sedans */
 .bt {
+  cursor: pointer;
   width: 148px;
   height: 50px;
   margin-top: 24px;
-}
-.bt.bt-sedans {
   font-size: 15px;
+  border-radius: 25px;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
+}
+.bt.bt-sedans {
   color: hsl(31, 77%, 52%);
-  border-radius: 25px;
   border: 1px solid hsl(31, 77%, 52%);
 }
 .bt.bt-sedans:hover {
-  cursor: pointer;
   border-color: hsl(0, 0%, 95%);
   background-color: hsl(31, 77%, 52%);
   color: hsl(0, 0%, 95%);
@@ -78,30 +78,20 @@ body {
 
 /* button-suvs */
 .bt.bt-suvs {
-  font-size: 15px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
   color: hsl(184, 100%, 22%);
-  border-radius: 25px;
   border: 1px solid hsl(184, 100%, 22%);
 }
 .bt.bt-suvs:hover {
-  cursor: pointer;
   border-color: hsl(0, 0%, 95%);
   background-color: hsl(184, 100%, 22%);
   color: hsl(0, 0%, 95%);
 }
 /* button-luxury */
 .bt.bt-luxury {
-  font-size: 15px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
   color: hsl(179, 100%, 13%);
-  border-radius: 25px;
   border: 1px solid hsl(179, 100%, 13%);
 }
 .bt.bt-luxury:hover {
-  cursor: pointer;
   border-color: hsl(0, 0%, 95%);
   background-color: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
